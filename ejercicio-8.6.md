@@ -71,7 +71,7 @@ Ejemplo: la capa oculta del XOR va de 2 a 2: $(2 + 1) \times 2 = 6$, que son los
 Cada una: $(n_{k} + n_{i} + 1)n_{k}$  
 Las sigmoides, la tanh y los productos punto a punto: sin parametros.
 
-se tiene $\#LSTM = 4(1 + n_{h} + n_{i})n_{k}$ (la celda recurrente)
+se tiene $ #LSTM = 4(1 + n_{h} + n_{i})n_{k}$ (la celda recurrente)
 
 - La celda produce un vector de n\_{h} numeros.
 - Para una distribucion sobre V palabras hace falta una densa de n*{h} a V y un softmax: $(n*{h} + 1)V$ parametros mas.
